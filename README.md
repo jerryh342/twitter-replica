@@ -6,7 +6,6 @@ This is my attempt at building a bare-minimum Twitter replica that includes user
 
 (Link: https://www.youtube.com/watch?v=pFHyZvVxce0)
 
-
 ### Included Features
 
 1.User registration & login features
@@ -15,7 +14,7 @@ This is my attempt at building a bare-minimum Twitter replica that includes user
 - Current logged-in user is stored in localStorage
 - Separate pages for user registration and login
 
-2.Posting 
+2.Posting
 
 * **Axios REST** API calls for creating and deleting posts
 * Homepage that renders post feeds
@@ -30,14 +29,11 @@ This is my attempt at building a bare-minimum Twitter replica that includes user
 
 1. User Authentication
    Rewrite login API so that instead of storing logged in username in localStorage, an authorization token is returned, stored in localStorage and attached to future request headers.
-2. Deleting posts
-   Adding a button that calls the post deletion API upon being clicked
-3. 
+2. Deleting & liking posts
+   Adding a button that calls the post deletion & like API upon being clicked
+   Render number of likes of post on feed
 
 ### Details for running project
-
-Youtube Demo Link: 
-
 
 Running project locally:
 
